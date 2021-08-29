@@ -4,7 +4,7 @@ const path = require('path');
 var cors = require('cors');
 var app = express();
 
-app.use(express.static(path.join(__dirname, '../platform-task-react/build')));
+app.use(express.static(path.join(__dirname, '../server/build')));
 
 
 app.use(cors());  //we need it for the communication betweeen react and node.js
@@ -89,7 +89,7 @@ app.post('', function (req, res) {
                   }) 
 
   
-   res.send( "The data has been added to the array DB.");   // your ID is:  \"" + (groupId-1) + "\" keep it for later!"
+   res.send( "The data has been added to the array DB.");  
    
   
 })
@@ -101,7 +101,7 @@ app.post('', function (req, res) {
 app.get('/', function (req, res) {
      
     console.log("Got a GET request for index.html");
-    res.sendFile(path.join(__dirname, '../platform-task-react/build/index.html'));
+    res.sendFile(path.join(__dirname, '../server/build/index.html'));
    
  })
 
@@ -124,7 +124,7 @@ var server = app.listen(8081, function () {
 
 
 
-//function to convert a timestamp, to AMerican date
+//function to convert a timestamp, to American date
 function timestampToDate(timestamp) {
    const firstValentineOfTheDecade = new Date(timestamp); // 1 for February
    const longEnUSFormatter = new Intl.DateTimeFormat('en-US', {
