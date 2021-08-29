@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.errors_title{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(23,18,59);
+
+}
+
+.updateAndErrors
+{
+  background-color: white	;
+
+}
+
+
+
+div:hover{
+  background-color: #D8D8D8	;
+
+}
+
+
+
+/*.accordion_element:hover{
+  background-color: #D8D8D8	;
+
+}*/
+
+
