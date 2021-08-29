@@ -50,6 +50,6 @@ in order to to this, just run the command : npm run build , (on the client side)
 
 Make sure that both the server and the client directories are under one father dir.
 
-one you do that everything is ready. 
+Once you did that everything is ready. 
 you can run it all from the server side.   (please notice that every time you change the react, you have to rebuild)
 enjoy
