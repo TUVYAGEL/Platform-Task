@@ -13,7 +13,7 @@ One for the React(client), and second for the Node(server)
 The dependencies in the pachage.json aren't installed yet!!!
 
 
-Open each of the folders in your vs code (for the convenience, you can do this from the cmd too), than open open the terminal and write : npm install .
+Open each of the folders in your vs code (for the convenience, you can do this from the cmd too), than open the terminal and write : npm install .
 It will automotically install all the needed dependencies.
 
 Once you have done that, you can run the project!
