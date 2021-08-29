@@ -4,7 +4,7 @@ const path = require('path');
 var cors = require('cors');
 var app = express();
 
-app.use(express.static(path.join(__dirname, '../server/build')));
+app.use(express.static(path.join(__dirname, '../client/build')));
 
 
 app.use(cors());  //we need it for the communication betweeen react and node.js
@@ -101,7 +101,7 @@ app.post('', function (req, res) {
 app.get('/', function (req, res) {
      
     console.log("Got a GET request for index.html");
-    res.sendFile(path.join(__dirname, '../server/build/index.html'));
+    res.sendFile(path.join(__dirname, '../client/build/index.html'));
    
  })
 
