@@ -1,6 +1,5 @@
 {
-  "homepage": "http:TUVYAGEL.github.io/platform-task",
-  "name": "platform-task-react",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
