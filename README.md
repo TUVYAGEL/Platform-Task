@@ -18,11 +18,11 @@ It will automotically install all the needed dependencies.
 
 Once you have done that, you can run the project!
 
-In the server side , write in the termianl : node server.js.  
+For the server side , write in the termianl(once you are inside the folder of the server!) : node server.js.  
 Now the server will start running , on port 8081.
 
 
-On the client side, wtire in the terminal: npm start
+On the client side (In the folder of the client), wtire in the terminal: npm start
 
 
 Now , a chrome window will be open on port 3000, showing the client side.
