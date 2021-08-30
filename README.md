@@ -2,54 +2,46 @@
 Platform-Task is a node-react system, that get "messages", and also send the "messages" to clients (using react)
 
 
+## Set up
+To set up the project you need to install all the node modules in both of the projects
 
-In order to run this project, you have to first clone it.
+```sh
+cd Platform-Task/client
+npm install
+cd ../server
+npm install
+```
 
-There are two folders inside.
-
-One for the React(client), and second for the Node(server)
-
-
-The dependencies in the package.json aren't installed yet!!!
-
-
-In the terminal, open each of the folders , and write : npm install .
-It will automotically install all the needed dependencies.
-
-Once you have done that, you can run the project!
-
-For the server side , write in the termianl(In the folder of the server!) : node server.js.  
-Now the server will start running , on port 8081.
-
-
-On the client side (In the folder of the client), wtire in the terminal: npm start
+## Running the projects
+For this to work you need to have both the node server and the react project running.
+### Start the server
+To start the server you need to call these commands
+```sh
+cd Platform-Task/server
+node server.js
+```
+This server should now be running on port 8081.
 
 
-Now , a chrome window will be open on port 3000, showing the client side.
-
-That it.
-
-
-
-Script for post requests:
-If you want to make post requests to the server, with new messages, i had a python script for that, attached to this repo.
-
+### Start the client
+To start the app you need to call 
+```sh
+cd Platform-Task/client
+npm start
+```
+This will start the react application on port 3000.
 
 
+## Build
+If you want to build the client , you need to call
+```sh
+cd Platform-Task/client
+npm run build
+```
 
-If you want to run it all from the server side:
-(
-so that when you make a simple get request in localhost:8081, the server will send you back an "index.html" that does the react.
-
-which means that you don't need npm start.)
+This will build the react application .
+start the server, open  http://localhost:8081, and the index.html will be sent from the server.
 
 
-You have to first build the "client".
 
-in order to to this, just run in the terminal, the command : npm run build , (on the client side).
-
-Make sure that both the server and the client directories are under one father dir.
-
-Once you did that everything is ready. 
-you can run it all from the server side.   (please notice that every time you change the react, you have to rebuild)
-enjoy
+## Making post requests
