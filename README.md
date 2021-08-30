@@ -18,7 +18,7 @@ It will automotically install all the needed dependencies.
 
 Once you have done that, you can run the project!
 
-For the server side , write in the termianl(once you are inside the folder of the server!) : node server.js.  
+For the server side , write in the termianl(In the folder of the server!) : node server.js.  
 Now the server will start running , on port 8081.
 
 
