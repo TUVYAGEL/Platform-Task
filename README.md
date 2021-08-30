@@ -46,3 +46,10 @@ open  http://localhost:8081, and the index.html will be sent from the server.
 
 
 ## Making post requests
+we are using a python script, so make sure yyou have it installed.
+open the father directory of "main.py", you need to call 
+```sh
+pip install requests
+python main.py
+```
+
