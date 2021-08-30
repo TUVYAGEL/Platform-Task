@@ -13,7 +13,7 @@ One for the React(client), and second for the Node(server)
 The dependencies in the package.json aren't installed yet!!!
 
 
-In the cmd, open each of the folders , and write : npm install .
+In the terminal, open each of the folders , and write : npm install .
 It will automotically install all the needed dependencies.
 
 Once you have done that, you can run the project!
