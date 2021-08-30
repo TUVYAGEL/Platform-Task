@@ -6,7 +6,7 @@ Platform-Task is a node-react system, that get "messages", and also send the "me
 To set up the project you need to install all the node modules in both of the projects
 
 ```sh
-cd Platform-Task/client
+cd client
 npm install
 cd ../server
 npm install
@@ -17,7 +17,7 @@ For this to work you need to have both the node server and the react project run
 ### Start the server
 To start the server you need to call these commands
 ```sh
-cd Platform-Task/server
+cd server
 node server.js
 ```
 This server should now be running on port 8081.
@@ -26,7 +26,7 @@ This server should now be running on port 8081.
 ### Start the client
 To start the app you need to call 
 ```sh
-cd Platform-Task/client
+cd client
 npm start
 ```
 This will start the react application on port 3000.
@@ -35,7 +35,7 @@ This will start the react application on port 3000.
 ## Build
 If you want to build the client , you need to call
 ```sh
-cd Platform-Task/client
+cd  client
 npm run build
 ```
 
