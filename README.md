@@ -40,7 +40,8 @@ npm run build
 ```
 
 This will build the react application .
-start the server, open  http://localhost:8081, and the index.html will be sent from the server.
+start the server.
+open  http://localhost:8081, and the index.html will be sent from the server.
 
 
 
