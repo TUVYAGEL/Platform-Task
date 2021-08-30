@@ -10,10 +10,10 @@ There are two folders inside.
 One for the React(client), and second for the Node(server)
 
 
-The dependencies in the pachage.json aren't installed yet!!!
+The dependencies in the package.json aren't installed yet!!!
 
 
-Open each of the folders in your vs code (for the convenience, you can do this from the cmd too), than open the terminal and write : npm install .
+In the cmd, open each of the folders , and write : npm install .
 It will automotically install all the needed dependencies.
 
 Once you have done that, you can run the project!
@@ -46,7 +46,7 @@ which means that you don't need npm start.)
 
 You have to first build the "client".
 
-in order to to this, just run the command : npm run build , (on the client side).
+in order to to this, just run in the terminal, the command : npm run build , (on the client side).
 
 Make sure that both the server and the client directories are under one father dir.
 
